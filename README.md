@@ -27,15 +27,6 @@ Where:
 - `a, b, c` = constants controlling curve shape  
 
 ---
-
-🧠 Methodology  
-The function:  
-
-```python
-def quadratic_weather_model(t):
-    a, b, c = 0.05, -0.3, 25   # coefficients
-    return a * t**2 + b * t + c
-
 🔎 SDLC Modes in Quadratic Weather Model  
 
 This model is applied in **three SDLC modes**:  
