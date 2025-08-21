@@ -17,33 +17,13 @@ At the same time, it creatively connects the concept of **Software Development L
  📖 Problem Statement  
 Predicting weather requires complex systems 🌦️. However, for learning purposes, we can use a **simple quadratic function**:  
 
-\[
-T = a \cdot t^2 + b \cdot t + c
-\]
+We use:
+T(t)=at2+bt+c
+Where:
+T = Temperature (predicted)
+t = Time (hour of the day)
+a,b,c = Coefficients (based on historical data or assumptions)
 
-Where:  
-- `t` = time (hours)  
-- `T` = predicted temperature (°C)  
-- `a, b, c` = constants controlling curve shape  
-
----
-🔎 SDLC Modes in Quadratic Weather Model  
-
-This model is applied in **three SDLC modes**:  
-
-🚰 Waterfall Mode  
-- Predictions are calculated **once in sequence**.  
-- ⏱️ Example: Check temperature **every 6 hours** without revisiting previous steps.  
-
- 🔄 Iterative Mode  
-- Predictions are refined **in cycles (iterations)**.  
-- 🔁 Example: Re-run calculations in **multiple iterations** (every 12 hours).  
-
-⚡ Agile Mode  
-- Predictions are checked in **sprints with flexible increments**.  
-- 🏃 Example: Check at **specific times (0, 6, 12, 18, 24 hrs)** over multiple sprints.  
-
----
 
 ⚙️ Functional Requirements  
 
