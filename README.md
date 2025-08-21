@@ -1,20 +1,20 @@
 # 🌦️ Quadratic Weather Model with SDLC Approaches 📈  
 
-## 📌 Introduction  
+ 📌 Introduction  
 This project demonstrates how a **quadratic equation** can be used to model weather patterns 🌍 (specifically temperature variation over time).  
 
 At the same time, it creatively connects the concept of **Software Development Life Cycle (SDLC)** models — **Waterfall, Iterative, and Agile** — by simulating temperature predictions in different development approaches.  
 
 ---
 
-## 🎯 Objectives  
+🎯 Objectives  
 - 🔹 Show how **quadratic functions** can model weather-like data.  
 - 🔹 Illustrate the difference between **Waterfall, Iterative, and Agile models** in a fun, practical way.  
 - 🔹 Provide students with an easy-to-understand Python program combining **Math + Weather + Software Engineering concepts**.  
 
 ---
 
-## 📖 Problem Statement  
+ 📖 Problem Statement  
 Predicting weather requires complex systems 🌦️. However, for learning purposes, we can use a **simple quadratic function**:  
 
 \[
@@ -28,7 +28,7 @@ Where:
 
 ---
 
-## 🧠 Methodology  
+🧠 Methodology  
 The function:  
 
 ```python
@@ -36,26 +36,25 @@ def quadratic_weather_model(t):
     a, b, c = 0.05, -0.3, 25   # coefficients
     return a * t**2 + b * t + c
 
-
-## 🔎 SDLC Modes in Quadratic Weather Model  
+🔎 SDLC Modes in Quadratic Weather Model  
 
 This model is applied in **three SDLC modes**:  
 
-### 🚰 Waterfall Mode  
+🚰 Waterfall Mode  
 - Predictions are calculated **once in sequence**.  
 - ⏱️ Example: Check temperature **every 6 hours** without revisiting previous steps.  
 
-### 🔄 Iterative Mode  
+ 🔄 Iterative Mode  
 - Predictions are refined **in cycles (iterations)**.  
 - 🔁 Example: Re-run calculations in **multiple iterations** (every 12 hours).  
 
-### ⚡ Agile Mode  
+⚡ Agile Mode  
 - Predictions are checked in **sprints with flexible increments**.  
 - 🏃 Example: Check at **specific times (0, 6, 12, 18, 24 hrs)** over multiple sprints.  
 
 ---
 
-## ⚙️ Functional Requirements  
+⚙️ Functional Requirements  
 
 ✅ Calculate quadratic-based temperature for given hours.  
 ✅ Print predictions for **Waterfall, Iterative, and Agile modes**.  
@@ -63,15 +62,15 @@ This model is applied in **three SDLC modes**:
 
 ---
 
-## 🚫 Non-Functional Requirements  
+🚫 Non-Functional Requirements  
 
 ⏱️ Fast execution (**lightweight**).  
 🐍 Implemented in **Python** for simplicity.  
 📚 Code is designed for **education and demonstration**.
 
-## 📊 Example Output  
+📊 Example Output  
 
-### 🚰 Waterfall Mode  
+🚰 Waterfall Mode  
 === WATERFALL MODE ===
 Time: 0 hrs -> Predicted Temp: 25.00°C
 Time: 6 hrs -> Predicted Temp: 23.80°C
@@ -85,7 +84,7 @@ Edit
 
 ---
 
-### 🔄 Iterative Mode  
+🔄 Iterative Mode  
 === ITERATIVE MODE ===
 Iteration 1:
 Time: 0 hrs -> Temp: 25.00°C
@@ -100,7 +99,7 @@ Edit
 
 ---
 
-### ⚡ Agile Mode  
+⚡ Agile Mode  
 === AGILE MODE ===
 Sprint 1:
 Time: 0 hrs -> Temp: 25.00°C
@@ -114,7 +113,7 @@ Edit
 
 ---
 
-## 🚀 Future Scope  
+🚀 Future Scope  
 
 📊 Extend model with **real datasets**.  
 🌍 Compare quadratic model with **machine learning predictions**.  
@@ -123,7 +122,7 @@ Edit
 
 ---
 
-## 💡 Conclusion  
+💡 Conclusion  
 
 This project is a **blend of mathematics and software engineering** 💻.  
 It shows:  
